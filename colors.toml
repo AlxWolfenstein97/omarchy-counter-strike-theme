@@ -1,0 +1,35 @@
+mode = "dark"
+
+# GoldSrc pack — HUD amber + CT navy on menu black
+accent = "#E8B820"
+selection = "#1A2210"
+muted = "#5A5840"
+
+background = "#0A0C10"
+dark_background = "#06080C"
+darker_background = "#030406"
+lighter_background = "#161A22"
+
+foreground = "#F0ECD8"
+dark_foreground = "#7A7660"
+light_foreground = "#D4D0B8"
+bright_foreground = "#FFFFFF"
+
+hyprland_active_border = "rgba(E8B820ee) rgba(3A6ABAee) 45deg"
+hyprland_inactive_border = "rgba(1A2210aa)"
+
+red = "#C83028"
+yellow = "#E8B820"
+orange = "#E89020"
+green = "#4AAA3A"
+cyan = "#4AB0C8"
+blue = "#3A6ABA"
+magenta = "#A85A4A"
+brown = "#6B4A1A"
+
+bright_red = "#E85850"
+bright_yellow = "#F0D040"
+bright_green = "#6ACC5A"
+bright_cyan = "#6AC8E0"
+bright_blue = "#5A8ABA"
+bright_magenta = "#C88070"
