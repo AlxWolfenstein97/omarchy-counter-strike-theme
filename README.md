@@ -142,10 +142,12 @@ omarchy plugin add https://github.com/AlxWolfenstein97/omatty.git --enable --yes
 ~/.config/omarchy/plugins/io.github.alxwolfenstein97.chroma/tools/arm-all-family.sh
 ```
 
-**Boom-out — one paste.** Mirror: teardown + pkg drop best-effort + plugin remove.
+**Boom-out — one paste.** Teardown + ledger pkg drop + plugin remove.
+`--purge-tombstones` also clears Style quiet-install stamps (same-session re-arm
+needs a loud install otherwise — why lives on the plugin READMEs).
 
 ```bash
-~/.config/omarchy/plugins/io.github.alxwolfenstein97.chroma/tools/wipe-all-family.sh
+~/.config/omarchy/plugins/io.github.alxwolfenstein97.chroma/tools/wipe-all-family.sh --purge-tombstones
 ```
 
 **Piece-meal** (not boom): one plugin’s Workshop paste — `plugin add` + interactive
