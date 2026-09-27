@@ -5,8 +5,8 @@ fucking *Windows*? Oh god, you don’t? Maybe a mostly blind person shouldn’t
 attempt that kind of game, but it was mostly with friends and we kinda smashed
 the usual rules. Fun. What if your desktop matched that GoldSrc amber HUD —
 menu black, CT navy borders, money-green hints — instead of another flat dark
-mode that could belong to anyone? Hyprland’s active border runs the same
-dual-accent trick as the asphalt night pack, the HEV suit, and Galuga:
+mode that could belong to anyone? Hyprland’s active border runs the same dual-accent trick as
+Asphalt, HEV, Galuga, Cyber Shadow, Doom 2016, Eternal, Caged, KI, Rising, Stanley, SF6, T2D & USFIV:
 **HUD amber → CT navy** at 45°.
 
 GoldSrc theme for [Omarchy](https://omarchy.org/). Inspired by the look of
