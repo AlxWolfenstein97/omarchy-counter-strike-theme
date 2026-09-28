@@ -155,12 +155,12 @@ omarchy plugin add https://github.com/AlxWolfenstein97/omatty.git --enable --yes
 
 **Boom-out — one paste.** Teardown + ledger pkg drop + plugin remove.
 Ledger drops only what we recorded pulling; may fail and stay if something else
-still needs the package (e.g. Goverlay after Pillow) — fine. `--purge-tombstones`
-also clears Style quiet-install stamps (same-session re-arm needs a loud install
-otherwise — why lives on the plugin READMEs).
+still needs the package (e.g. Goverlay after Pillow) — fine. Loud boom-in after
+this is enough — no tombstone purge needed (optional OCD flag lives on the
+plugin READMEs).
 
 ```bash
-~/.config/omarchy/plugins/io.github.alxwolfenstein97.chroma/tools/wipe-all-family.sh --purge-tombstones
+~/.config/omarchy/plugins/io.github.alxwolfenstein97.chroma/tools/wipe-all-family.sh
 ```
 
 **Piece-meal** (not boom): one plugin’s Workshop paste — `plugin add` + interactive
