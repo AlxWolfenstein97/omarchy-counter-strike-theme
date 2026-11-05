@@ -93,26 +93,26 @@ other Omarchy 3.x themes did it — but it’s the fast path if you want *this*
 pack’s wordmark on idle and on About without hunting files.
 
 **Prefer the `.txt` files** and the `cp` lines in [Install](#install). That’s
-what you’re meant to see. Editing the text also works (Style → About /
-Screensaver → Edit Text).
+what you’re meant to see. Editing the text also works (Appearance → Branding →
+About / Screensaver → Edit Text).
 
 **Skip the `cp` if you already have custom logos / screensaver art you care
 about** — or back those up first. The branding slot is really meant for *your*
-marks (put personal art somewhere easy to reach). The Style file picker works,
+marks (put personal art somewhere easy to reach). The Appearance file picker works,
 but drilling into `~/.config/omarchy/themes/...` is slow busywork for something
 optional. Don’t feel obliged to bring mine.
 
-The `.png` versions are here for the README and for a quick Style → **Set From
-Image** try. In my experience Omarchy’s image→ASCII path is a bit thinicky on
-color and boxing, so don’t expect magic from the PNGs — the hand text is the
-good path.
+The `.png` versions are here for the README and for a quick
+Appearance → Branding → About → **Set From Image** try. In my experience
+Omarchy’s image→ASCII path is a bit thinicky on color and boxing, so don’t
+expect magic from the PNGs — the hand text is the good path.
 
 Screensaver / logo ASCII has **no empty lines** (dense pack, same rule as the
 other game themes when the art set allows it).
 
 ### Unlock
 
-Style → Unlock → pick this theme (`unlock.png` / `preview-unlock.png`).
+Appearance → Unlock → pick this theme (`unlock.png` / `preview-unlock.png`).
 
 ## Extend further with plugins
 
@@ -138,7 +138,7 @@ inch-a-lada if you want the desktop to feel like yours.
 | **[OmaTTY](https://github.com/AlxWolfenstein97/omatty)** | Console font (Terminus-first, accessibility) |
 
 **Boom-in — one paste.** `--enable --yes` skips the per-plugin clone/enable
-prompts; arm-all then arms deps + Style/theme-set + root/SDDM/DRM (no Y/n).
+prompts; arm-all then arms deps + Appearance/theme-set + root/SDDM/DRM (no Y/n).
 Omit any `plugin add` line you do not want; arm-all only touches what is
 installed. Sudo may ask once — that is the boom, not a menu.
 
