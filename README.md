@@ -167,6 +167,14 @@ plugin READMEs).
 `install.sh` (asks [Y/n]) — lives on that plugin’s GitHub README. Single-plugin
 full wipe: `…/<plugin>/uninstall.sh --yes`.
 
+### Browser (manual)
+
+- **[OmaWeb](https://github.com/AlxWolfenstein97/omaweb)** — reshapes the
+  official Catppuccin userstyles bundle to the active `colors.toml` and hands it
+  to the normal Stylus extension, with an optional Dark Reader export for sites
+  no userstyle covers. Manual by design: no Appearance row and no family boom.
+  Browser flags and the one-time Stylus import are covered on that README.
+
 ### Already solved elsewhere (gladly)
 
 - **[Omacord](https://github.com/ASwenia/omacord)** — Vesktop / Vencord Discord
